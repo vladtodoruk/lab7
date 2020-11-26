@@ -1,0 +1,65 @@
+   
+  .Checkb input {
+       display: none; 
+    }
+
+  .Checkb span {
+   position: relative;
+   display: inline-block;
+   width: 20px; height: 20px;
+   background: #F5F5F5;
+   border-radius:5px ;
+  }
+
+  .Checkb input:checked + span { 
+   background: #81168f;
+  }
+ 
+  .Checkb input:hover + span { 
+    background: #ded4df;
+   }
+  .Checkb input:checked + span::before { 
+   content: '';
+   position: absolute;
+   left: 7px; top: 11px;
+   background: #fff;
+   width: 11px; height: 2px;
+   transform: rotate(-45deg);
+  }
+
+  .Checkb input:checked + span::after { 
+    content: '';
+    position: absolute;
+    left: 3px; top: 11px;
+    background: #fff;
+    width: 9px; height: 2px;
+    transform: rotate(59deg);
+   }
+
+  .Radiob input { 
+      display: none;
+    }
+  .Radiob span {
+   position: relative; 
+   display: inline-block; 
+   width: 20px; height: 20px; 
+   background: #e7e4e4; 
+   border-radius: 50%;
+  }
+  .Radiob input:checked + span { 
+   background: rgb(241, 44, 44);
+  }
+  .Radiob input:hover + span  { 
+    background: #ded4df;
+   }
+  .Radiob input:checked + span::before { 
+   content: '';
+   position: absolute;
+   left: 7px; top: 8px;
+   background: white;
+   width: 5px; height:5px;
+   border-radius: 50%;
+  }
+  a:hover{
+color: Grey;
+  }

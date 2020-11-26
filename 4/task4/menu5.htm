@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>:checked</title>
+  <link rel="stylesheet" type="text/css" href="
+  menu5.css">
+ </head>
+ <body>
+<div id="product">
+    <h4>{{$translate('options')}}</h4>
+        <div v-for="(a,key,index) in attribute">
+            <h5>{{a}}</h5>
+            <v-radio-group small row v-model="selected[index]">
+                <v-radio :label="v" :value="v" v-for="v in options['V'+(index+1)]" :key="v"></v-radio>
+            </v-radio-group>
+        </div>
+ </body>
+</html>

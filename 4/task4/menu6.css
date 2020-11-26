@@ -1,0 +1,41 @@
+.utable table{
+	border-spacing: 0;
+}
+
+.utable th{
+
+	font-size: 16px;
+	font-weight: normal;
+	text-align: left;
+	background: blue;
+	color: white;
+	padding: 8px;
+}
+
+.utable tr{
+
+	font-size: 16px;
+	background: white;
+
+}
+
+.utable tr:nth-child(2n){
+
+	background: red;
+}
+
+.utable td{
+
+	padding: 3px 4px 3px 4px;
+
+}
+
+.utable td:first-child{
+
+	text-align: center;
+	color: white;
+}
+.utable td:last-child{
+	text-align: center;
+	color: black;
+}

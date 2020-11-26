@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    width: 960px;
+    height: 960px;
+    outline: 2px dashed gray;
+    margin: 60px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+div {
+    height: 240px;
+    width: 240px;
+}
+
+
+div:nth-child(1) {
+    background: url("images/1_06.png");
+    transform: translate(240px,238px) rotate(90deg);
+    
+}
+
+div:nth-child(2) {
+    background: url("images/1_10.png");
+    transform: translate(0px,478px) rotate(180deg);
+    
+}
+
+div:nth-child(3) {
+    background: url("images/1_03.png");
+    transform: translate(0px,-1px) rotate(270deg);
+    
+}
+
+div:nth-child(4) {
+    background: url("images/1_05.png");
+      transform: translate(-719px,240px) rotate(180deg);
+}
+
+div:nth-child(5) {
+    background: url("images/1_13.png");
+     transform: translate(0px,479px) rotate(270deg);
+    
+}
+
+div:nth-child(6) {
+    background: url("images/1_01.png");
+    transform: translate(480px,-239px) rotate(90deg);
+    
+}
+
+div:nth-child(7) {
+    background: url("images/1_09.png");
+    transform: translate(-480px,240px) rotate(0deg)
+    
+}
+
+div:nth-child(8) {
+    background: url("images/1_08.png");
+    transform: translate(0px,0px) rotate(90deg);
+    
+}
+
+div:nth-child(9) {
+    background: url("images/1_04.png");
+    transform: translate(0px,-480px) rotate(90deg);
+    
+}
+
+div:nth-child(10) {
+    background: url("images/1_02.png");
+
+    transform: translate(0px,-482px) rotate(90deg);
+
+    
+}
+
+div:nth-child(11) {
+    background: url("images/1_11.png");
+    transform: translate(0px,-1px) rotate(90deg);
+    
+}
+
+div:nth-child(12) {
+    background: url("images/1_16.png");
+    transform: translate(0px,237px) rotate(90deg);
+    
+}
+
+div:nth-child(13) {
+    background: url("images/1_15.png");
+    transform: translate(480px,-3px) rotate(360deg);
+    
+}
+
+div:nth-child(14) {
+    background: url("images/1_14.png");
+    transform: translate(0px,-3px) rotate(180deg);
+    
+}
+
+div:nth-child(15) {
+    background: url("images/1_12.png");
+     transform: translate(240px,-240px) rotate(270deg);
+}
+
+div:nth-child(16) {
+    background: url("images/1_07.png");
+    transform: translate(-240px,-481px) rotate(180deg);
+    
+}

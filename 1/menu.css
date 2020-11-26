@@ -1,0 +1,29 @@
+body{
+
+    background-color: YellowGreen;
+}
+
+button {
+    
+border: none;
+background: #3a7999;
+color: #f2f2f2;
+padding: 10px;
+font-size: 18px;
+border-radius: 5px;
+border-width: 100px;
+
+
+    
+
+
+}
+
+button:hover {
+background: rgba(0,0,0,0); /*Прозразність */
+color: red;   /* зміна колір при наведенні*/
+ border-bottom: 6px solid LightSteelBlue; /* нижня лінія при наведенні*/
+   
+}
+
+ 

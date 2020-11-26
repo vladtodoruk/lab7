@@ -1,0 +1,53 @@
+a{
+  
+  text-decoration: none;  /* без підкреслення*/
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.side{
+ width: 200px;
+ margin: 20px; 
+
+}
+.menu a{
+  background: CadetBlue;
+color: #fff;
+padding: 10px;
+display: block;
+
+border-bottom: 1px solid Aqua;
+transition: 0.5s all;
+
+}
+
+.menu a:hover{
+  background:SteelBlue ;
+  padding: 10px 0 10px 20px;
+}
+
+.menu_list{
+  
+ position: relative; 
+}
+
+.menu_drop{
+ background: CadetBlue;
+  position: absolute;
+  width: 100%;
+  left: 100%;
+  top:-9999em;
+  opacity: 0;
+}
+
+.menu_list:hover .menu_drop{
+  
+opacity: 1;
+top: 0;
+}
+
+
